@@ -50,5 +50,6 @@ class Solution{
         String ans=binarySearch.solution(target,nums);
         System.out.println(ans);
         System.out.println("");
+        System.out.println();
     }
 }
