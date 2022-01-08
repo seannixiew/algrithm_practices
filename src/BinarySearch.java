@@ -49,5 +49,6 @@ class Solution{
         BinarySearch binarySearch=new BinarySearch();
         String ans=binarySearch.solution(target,nums);
         System.out.println(ans);
+        System.out.println("");
     }
 }
