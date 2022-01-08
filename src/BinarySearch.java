@@ -17,6 +17,7 @@ public class BinarySearch {
                 right=mid-1;
             }
         }
+
         if(nums[left]!=target || left>=nums.length){
             return -1;
         }
@@ -44,6 +45,7 @@ class Solution{
     public static void main(String[] args) {
         int[] nums= {1,2,3,4,5,7,7,7,7,7,7,8,8,10};
         int target=7;
+        System.out.println("");
         BinarySearch binarySearch=new BinarySearch();
         String ans=binarySearch.solution(target,nums);
         System.out.println(ans);
